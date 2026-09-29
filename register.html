@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_blank" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container-lowest": "#ffffff", "secondary-container": "#ff9244", "inverse-on-surface": "#f2f1ec", "surface": "#fbf9f4", "surface-container-highest": "#e4e2dd", "surface-container-high": "#eae8e3", "inverse-surface": "#30312e", "inverse-primary": "#71dc92", "on-primary-fixed": "#00210d", "secondary-fixed": "#ffdbc7", "on-secondary-fixed": "#311300", "surface-container-low": "#f5f3ee", "on-tertiary-fixed": "#00210d", "tertiary-container": "#2c844e", "surface-container": "#f0eee9", "surface-dim": "#dbdad5", "tertiary-fixed-dim": "#82d99a", "tertiary-fixed": "#9df6b4", "on-secondary": "#ffffff", "on-surface-variant": "#3e4a3f", "outline": "#6e7a6f", "on-primary-fixed-variant": "#005229", "on-tertiary-fixed-variant": "#005229", "on-background": "#1b1c19", "surface-tint": "#006d38", "on-error": "#ffffff", "tertiary": "#026a37", "secondary": "#984800", "secondary-fixed-dim": "#ffb689", "on-primary": "#ffffff", "on-error-container": "#93000a", "primary-container": "#018646", "on-primary-container": "#f6fff4", "primary-fixed": "#8df9ac", "on-surface": "#1b1c19", "on-tertiary-container": "#f6fff4", "on-secondary-fixed-variant": "#733500", "on-tertiary": "#ffffff", "primary": "#006a36", "surface-variant": "#e4e2dd", "error": "#ba1a1a", "error-container": "#ffdad6", "surface-bright": "#fbf9f4", "background": "#fbf9f4", "outline-variant": "#bdcabc", "primary-fixed-dim": "#71dc92", "on-secondary-container": "#6b3100" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "1rem", "space-xs": "0.25rem", "gutter": "1rem", "space-lg": "1.5rem", "space-md": "1rem", "gutter-tablet": "1.5rem", "space-xl": "2rem", "space-sm": "0.5rem", "margin-tablet": "1.5rem", "gutter-desktop": "1.5rem", "margin-desktop": "2rem" }, "fontFamily": { "label-lg": ["Inter"], "body-lg": ["Inter"], "body-sm": ["Inter"], "display-lg-mobile": ["Epilogue"], "label-sm": ["Inter"], "headline-lg-mobile": ["Epilogue"], "headline-sm": ["Epilogue"], "title-lg": ["Epilogue"], "label-md": ["Inter"], "title-md": ["Inter"], "display-lg": ["Epilogue"], "headline-md": ["Epilogue"], "title-sm": ["Inter"], "body-md": ["Inter"], "headline-lg": ["Epilogue"] }, "fontSize": { "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "400" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "400" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "500" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "0", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "0", "fontWeight": "600" }], "title-lg": ["18px", { "lineHeight": "24px", "letterSpacing": "0", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.03em", "fontWeight": "600" }], "title-md": ["16px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "600" }], "display-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "0", "fontWeight": "600" }], "title-sm": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } }</script><style>@layer base { html, body { width: 100vw; margin: 0; padding: 0; min-height: 100vh; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: max(env(safe-area-inset-bottom, 0px), 8px); } .pt-safe { padding-top: max(env(safe-area-inset-top, 0px), 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface flex flex-col min-h-screen pt-safe pb-safe"><div class="w-full h-6 px-margin flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm select-none"><span class="font-label-md text-label-md text-on-surface">09:41</span><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px]">signal_cellular_alt</span><span class="material-symbols-outlined text-[16px]">wifi</span><span class="material-symbols-outlined text-[18px]">battery_full</span></div></div><main class="flex-1 flex flex-col relative w-full bg-surface"><div class="flex flex-col w-full pb-8">
+<div class="px-margin pt-4 pb-2 flex flex-col gap-space-xs">
+<div class="flex items-center gap-2 mb-1">
+<div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container shadow-sm">
+<span class="material-symbols-outlined text-[18px]">volunteer_activism</span>
+</div>
+<span class="font-label-md text-label-md tracking-wider uppercase text-primary font-bold">ComParte Colombia</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface">Crea tu cuenta en ComParte</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Únete a la red comunitaria que transforma excedentes en sonrisas y platos dignos.</p>
+</div>
+<div class="px-margin my-3">
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-primary-container/15 via-tertiary-container/10 to-secondary-container/20 p-3 shadow-sm flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 bg-surface-container-high">
+<img class="w-full h-full object-cover" data-alt="Warm documentary portrait of a joyful Colombian community kitchen cook in Medellin smiling warmly with fresh produce in the background, authentic warm daylight, cinematic documentary photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArnyASNJ7Gmm7awt2hi68u387sT0HkmaO482607JskygvfpxY0o5h4in3pVFQWuUFjovtvyI2VVRe3zfq08zwlB-5bp5GY9GAyXkprI-RsL3UnzmvYfmDsgRXPrnGzf_TwphlhjpicWAxSmEnMxJxdeZsvzl1zS8fgD3KM-m_aol7ZU0jxXMWABaPdo88TmPYwx8nyAgOfQ-BYcBU-1fFEwpMayrmlzwPpwsxyYmE5FEAUqoCeTszV8g"/>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-sm text-label-sm uppercase tracking-wide text-primary font-semibold">Red Solidaria Activa</p>
+<p class="font-body-sm text-body-sm text-on-surface font-medium truncate">+380 comedores y panaderías conectadas hoy</p>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px] flex-shrink-0">eco</span>
+</div>
+</div>
+<div class="px-margin mt-2 flex flex-col gap-space-sm">
+<label class="font-label-lg text-label-lg text-on-surface">¿Cómo participarás en ComParte?</label>
+<div class="grid grid-cols-2 gap-space-sm" id="role-selector-container">
+<button class="relative flex flex-col items-start p-3 rounded-xl bg-primary/10 text-on-surface shadow-sm text-left transition-all duration-200" id="role-receptor-btn" onclick="selectRole('receptor')" type="button">
+<div class="w-full flex items-center justify-between mb-2">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center transition-colors" id="icon-container-receptor">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">soup_kitchen</span>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px]" id="check-receptor">check_circle</span>
+</div>
+<p class="font-title-md text-title-md text-on-surface font-bold leading-tight">Receptor</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5">Persona, fundación o comedor comunitario</p>
+<div class="mt-3 inline-flex items-center gap-1 bg-surface-container-lowest px-2 py-0.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[13px] text-primary">favorite</span>
+<span class="font-label-sm text-label-sm text-primary font-semibold">Recibir apoyo</span>
+</div>
+</button>
+<button class="relative flex flex-col items-start p-3 rounded-xl bg-surface-container text-on-surface opacity-90 text-left transition-all duration-200" id="role-donante-btn" onclick="selectRole('donante')" type="button">
+<div class="w-full flex items-center justify-between mb-2">
+<div class="w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center transition-colors" id="icon-container-donante">
+<span class="material-symbols-outlined text-[20px]">storefront</span>
+</div>
+<span class="material-symbols-outlined text-outline-variant text-[20px]" id="check-donante">radio_button_unchecked</span>
+</div>
+<p class="font-title-md text-title-md text-on-surface font-bold leading-tight">Donante</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5">Panadería, restaurante, café u hotel</p>
+<div class="mt-3 inline-flex items-center gap-1 bg-surface-container-highest px-2 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-[13px] text-secondary">handshake</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Tengo excedentes</span>
+</div>
+</button>
+</div>
+</div>
+<form class="px-margin mt-4 flex flex-col gap-space-md" id="register-form" onsubmit="event.preventDefault(); handleSubmit();">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium flex items-center justify-between">
+<span>Nombre completo o Representante</span>
+<span class="font-label-sm text-label-sm text-primary">Requerido</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">person</span>
+<input class="w-full h-14 pl-11 pr-4 bg-surface-container-high rounded-xl text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-0 shadow-sm transition-colors" id="fullname-input" placeholder="ej. Valentina Morales" required="" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium">Correo electrónico</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">mail</span>
+<input class="w-full h-14 pl-11 pr-4 bg-surface-container-high rounded-xl text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-0 shadow-sm transition-colors" id="email-input" placeholder="ej. valentina@fundacionesperanza.org" required="" type="email"/>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium">Teléfono celular</label>
+<div class="flex gap-2">
+<div class="h-14 px-3 bg-surface-container-high rounded-xl flex items-center gap-1.5 flex-shrink-0 shadow-sm">
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">🇨🇴 +57</span>
+</div>
+<div class="relative flex items-center flex-1">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">call</span>
+<input class="w-full h-14 pl-11 pr-4 bg-surface-container-high rounded-xl text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-0 shadow-sm transition-colors" id="phone-input" placeholder="310 456 7890" required="" type="tel"/>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium">Contraseña segura</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">lock</span>
+<input class="w-full h-14 pl-11 pr-11 bg-surface-container-high rounded-xl text-on-surface font-body-md text-body-md placeholder:text-outline focus:bg-surface-container-lowest focus:outline-none focus:ring-0 shadow-sm transition-colors" id="password-input" oninput="checkPasswordStrength(this.value)" placeholder="Mínimo 8 caracteres" required="" type="password"/>
+<button class="absolute right-3 text-on-surface-variant hover:text-on-surface flex items-center justify-center p-1" onclick="togglePasswordVisibility()" type="button">
+<span class="material-symbols-outlined text-[20px]" id="password-visibility-icon">visibility</span>
+</button>
+</div>
+<div class="bg-surface-container p-2.5 rounded-lg flex flex-col gap-1.5 mt-1">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Seguridad:</span>
+<span class="font-label-sm text-label-sm text-outline font-semibold" id="pwd-strength-text">Ingresa tu clave</span>
+</div>
+<div class="w-full h-1.5 bg-surface-container-highest rounded-full overflow-hidden flex gap-1">
+<div class="h-full flex-1 bg-outline/30 rounded-full transition-colors" id="bar-1"></div>
+<div class="h-full flex-1 bg-outline/30 rounded-full transition-colors" id="bar-2"></div>
+<div class="h-full flex-1 bg-outline/30 rounded-full transition-colors" id="bar-3"></div>
+<div class="h-full flex-1 bg-outline/30 rounded-full transition-colors" id="bar-4"></div>
+</div>
+</div>
+</div>
+<div class="hidden flex-col gap-space-sm p-4 rounded-xl bg-surface-container-low shadow-sm" id="donante-specific-section">
+<div class="flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-[20px]">store</span>
+<span class="font-title-sm text-title-sm font-bold">Datos del Establecimiento Donante</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Requeridos para geolocalizar tus excedentes y generar certificados DIAN de donación.</p>
+<div class="flex flex-col gap-1 mt-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium">Nombre comercial del local</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">apartment</span>
+<input class="w-full h-13 py-3 pl-11 pr-4 bg-surface-container-lowest rounded-xl text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none shadow-sm" id="business-name-input" placeholder="ej. Panadería y Pastelería La Espiga" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-1 mt-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant font-medium">Dirección de recogida</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">location_on</span>
+<input class="w-full h-13 py-3 pl-11 pr-4 bg-surface-container-lowest rounded-xl text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none shadow-sm" id="address-input" placeholder="ej. Calle 72 # 11-45, Bogotá D.C." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-2 mt-1 bg-secondary-fixed/50 p-2.5 rounded-lg text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[18px] text-secondary flex-shrink-0">verified_user</span>
+<span class="font-label-sm text-label-sm font-medium">Podrás emitir certificados de donación deducibles de renta.</span>
+</div>
+</div>
+<div class="flex items-start gap-3 mt-1 cursor-pointer select-none" onclick="toggleTerms()">
+<div class="w-6 h-6 mt-0.5 rounded-lg bg-surface-container-highest flex items-center justify-center text-on-primary flex-shrink-0 transition-colors" id="terms-box">
+<span class="material-symbols-outlined text-[18px] hidden" id="terms-check">check</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-tight">
+        Acepto los <span class="text-primary font-semibold underline">Términos de Servicio</span> y el <span class="text-primary font-semibold underline">Compromiso de Inocuidad y Manejo Sanitario</span> ComParte Colombia.
+      </p>
+</div>
+<button class="w-full h-14 mt-2 rounded-xl bg-secondary-container text-on-secondary font-label-lg text-label-lg tracking-wide uppercase shadow-md active:scale-[0.99] transition-all flex items-center justify-center gap-2" id="submit-btn" type="submit">
+<span class="material-symbols-outlined text-[20px]">how_to_reg</span>
+<span>Crear cuenta</span>
+</button>
+</form>
+<div class="px-margin mt-6 flex flex-col items-center justify-center gap-2 text-center">
+<p class="font-body-md text-body-md text-on-surface-variant">
+      ¿Ya tienes una cuenta registrada?
+    </p>
+<button class="font-title-sm text-title-sm text-primary font-bold hover:underline flex items-center gap-1" onclick="window.location.href='code.html'" type="button">
+<span>Iniciar sesión</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<div class="px-margin mt-8 flex items-center justify-center gap-4 text-on-surface-variant/60">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">shield</span>
+<span class="font-label-sm text-label-sm">Datos cifrados</span>
+</div>
+<span class="text-outline-variant">•</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">health_and_safety</span>
+<span class="font-label-sm text-label-sm">Protocolo INVIMA</span>
+</div>
+</div>
+</div>
+<script>
+  let currentRole = 'receptor';
+  let termsAccepted = false;
+
+  function selectRole(role) {
+    currentRole = role;
+    const receptorBtn = document.getElementById('role-receptor-btn');
+    const donanteBtn = document.getElementById('role-donante-btn');
+    const iconReceptor = document.getElementById('icon-container-receptor');
+    const iconDonante = document.getElementById('icon-container-donante');
+    const checkReceptor = document.getElementById('check-receptor');
+    const checkDonante = document.getElementById('check-donante');
+    const donanteSection = document.getElementById('donante-specific-section');
+    const businessInput = document.getElementById('business-name-input');
+    const addressInput = document.getElementById('address-input');
+
+    if (role === 'receptor') {
+      receptorBtn.className = 'relative flex flex-col items-start p-3 rounded-xl bg-primary/10 text-on-surface shadow-sm text-left transition-all duration-200';
+      donanteBtn.className = 'relative flex flex-col items-start p-3 rounded-xl bg-surface-container text-on-surface opacity-90 text-left transition-all duration-200';
+      iconReceptor.className = 'w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center transition-colors';
+      iconDonante.className = 'w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center transition-colors';
+      checkReceptor.innerText = 'check_circle';
+      checkReceptor.className = 'material-symbols-outlined text-primary text-[20px]';
+      checkDonante.innerText = 'radio_button_unchecked';
+      checkDonante.className = 'material-symbols-outlined text-outline-variant text-[20px]';
+      
+      donanteSection.classList.add('hidden');
+      businessInput.removeAttribute('required');
+      addressInput.removeAttribute('required');
+    } else {
+      donanteBtn.className = 'relative flex flex-col items-start p-3 rounded-xl bg-secondary-container/15 text-on-surface shadow-sm text-left transition-all duration-200';
+      receptorBtn.className = 'relative flex flex-col items-start p-3 rounded-xl bg-surface-container text-on-surface opacity-90 text-left transition-all duration-200';
+      iconDonante.className = 'w-10 h-10 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center transition-colors';
+      iconReceptor.className = 'w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant flex items-center justify-center transition-colors';
+      checkDonante.innerText = 'check_circle';
+      checkDonante.className = 'material-symbols-outlined text-secondary text-[20px]';
+      checkReceptor.innerText = 'radio_button_unchecked';
+      checkReceptor.className = 'material-symbols-outlined text-outline-variant text-[20px]';
+      
+      donanteSection.classList.remove('hidden');
+      businessInput.setAttribute('required', 'true');
+      addressInput.setAttribute('required', 'true');
+    }
+  }
+
+  function togglePasswordVisibility() {
+    const pwd = document.getElementById('password-input');
+    const icon = document.getElementById('password-visibility-icon');
+    if (pwd.type === 'password') {
+      pwd.type = 'text';
+      icon.innerText = 'visibility_off';
+    } else {
+      pwd.type = 'password';
+      icon.innerText = 'visibility';
+    }
+  }
+
+  function checkPasswordStrength(val) {
+    const text = document.getElementById('pwd-strength-text');
+    const b1 = document.getElementById('bar-1');
+    const b2 = document.getElementById('bar-2');
+    const b3 = document.getElementById('bar-3');
+    const b4 = document.getElementById('bar-4');
+
+    b1.className = 'h-full flex-1 bg-outline/30 rounded-full transition-colors';
+    b2.className = 'h-full flex-1 bg-outline/30 rounded-full transition-colors';
+    b3.className = 'h-full flex-1 bg-outline/30 rounded-full transition-colors';
+    b4.className = 'h-full flex-1 bg-outline/30 rounded-full transition-colors';
+
+    if (!val || val.length === 0) {
+      text.innerText = 'Ingresa tu clave';
+      text.className = 'font-label-sm text-label-sm text-outline font-semibold';
+      return;
+    }
+
+    let score = 0;
+    if (val.length >= 6) score++;
+    if (val.length >= 8) score++;
+    if (/[0-9]/.test(val)) score++;
+    if (/[^A-Za-z0-9]/.test(val)) score++;
+
+    if (score === 1) {
+      text.innerText = 'Débil';
+      text.className = 'font-label-sm text-label-sm text-error font-semibold';
+      b1.className = 'h-full flex-1 bg-error rounded-full transition-colors';
+    } else if (score === 2) {
+      text.innerText = 'Aceptable';
+      text.className = 'font-label-sm text-label-sm text-secondary font-semibold';
+      b1.className = 'h-full flex-1 bg-secondary rounded-full transition-colors';
+      b2.className = 'h-full flex-1 bg-secondary rounded-full transition-colors';
+    } else if (score === 3) {
+      text.innerText = 'Buena';
+      text.className = 'font-label-sm text-label-sm text-tertiary font-semibold';
+      b1.className = 'h-full flex-1 bg-tertiary rounded-full transition-colors';
+      b2.className = 'h-full flex-1 bg-tertiary rounded-full transition-colors';
+      b3.className = 'h-full flex-1 bg-tertiary rounded-full transition-colors';
+    } else {
+      text.innerText = 'Excelente';
+      text.className = 'font-label-sm text-label-sm text-primary font-semibold';
+      b1.className = 'h-full flex-1 bg-primary rounded-full transition-colors';
+      b2.className = 'h-full flex-1 bg-primary rounded-full transition-colors';
+      b3.className = 'h-full flex-1 bg-primary rounded-full transition-colors';
+      b4.className = 'h-full flex-1 bg-primary rounded-full transition-colors';
+    }
+  }
+
+  function toggleTerms() {
+    termsAccepted = !termsAccepted;
+    const box = document.getElementById('terms-box');
+    const icon = document.getElementById('terms-check');
+    if (termsAccepted) {
+      box.className = 'w-6 h-6 mt-0.5 rounded-lg bg-primary flex items-center justify-center text-on-primary flex-shrink-0 transition-colors shadow-sm';
+      icon.classList.remove('hidden');
+    } else {
+      box.className = 'w-6 h-6 mt-0.5 rounded-lg bg-surface-container-highest flex items-center justify-center text-on-primary flex-shrink-0 transition-colors';
+      icon.classList.add('hidden');
+    }
+  }
+
+  function handleSubmit() {
+    if (!termsAccepted) {
+      alert('Por favor acepta los Términos de Servicio y el Compromiso de Inocuidad para continuar.');
+      return;
+    }
+    const name = document.getElementById('fullname-input').value;
+    alert('¡Bienvenido(a) a ComParte, ' + name + '! Tu cuenta de ' + currentRole.toUpperCase() + ' ha sido configurada con éxito.');
+    window.location.href = 'feed.html';
+  }
+</script></main><div class="w-full flex justify-center pb-1 pt-2"><div class="w-32 h-1 bg-outline/40 rounded-full"></div></div></body></html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary": "#026a37", "surface-container-lowest": "#ffffff", "on-error": "#ffffff", "on-secondary": "#ffffff", "surface-container-low": "#f5f3ee", "on-primary-fixed-variant": "#005229", "on-surface-variant": "#3e4a3f", "tertiary-container": "#2c844e", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#00210d", "on-secondary-container": "#6b3100", "error-container": "#ffdad6", "outline": "#6e7a6f", "surface": "#fbf9f4", "error": "#ba1a1a", "inverse-primary": "#71dc92", "on-surface": "#1b1c19", "primary-fixed-dim": "#71dc92", "surface-container-high": "#eae8e3", "on-primary": "#ffffff", "secondary-fixed-dim": "#ffb689", "on-primary-container": "#f6fff4", "secondary": "#984800", "on-error-container": "#93000a", "on-background": "#1b1c19", "on-tertiary-fixed-variant": "#005229", "surface-bright": "#fbf9f4", "on-secondary-fixed": "#311300", "on-secondary-fixed-variant": "#733500", "surface-container": "#f0eee9", "surface-tint": "#006d38", "outline-variant": "#bdcabc", "background": "#fbf9f4", "on-tertiary-container": "#f6fff4", "tertiary-fixed": "#9df6b4", "primary": "#006a36", "on-primary-fixed": "#00210d", "secondary-container": "#ff9244", "surface-container-highest": "#e4e2dd", "primary-container": "#018646", "surface-dim": "#dbdad5", "inverse-on-surface": "#f2f1ec", "secondary-fixed": "#ffdbc7", "tertiary-fixed-dim": "#82d99a", "primary-fixed": "#8df9ac", "surface-variant": "#e4e2dd", "inverse-surface": "#30312e" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter-tablet": "1.5rem", "margin": "1rem", "gutter": "1rem", "space-sm": "0.5rem", "margin-tablet": "1.5rem", "margin-desktop": "2rem", "space-xl": "2rem", "gutter-desktop": "1.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-md": "1rem" }, fontFamily: { "title-lg": ["Epilogue"], "body-lg": ["Inter"], "headline-lg": ["Epilogue"], "display-lg": ["Epilogue"], "headline-sm": ["Epilogue"], "title-sm": ["Inter"], "label-sm": ["Inter"], "label-md": ["Inter"], "body-md": ["Inter"], "label-lg": ["Inter"], "headline-lg-mobile": ["Epilogue"], "title-md": ["Inter"], "body-sm": ["Inter"], "headline-md": ["Epilogue"], "display-lg-mobile": ["Epilogue"] }, fontSize: { "title-lg": ["18px", {"lineHeight": "24px", "letterSpacing": "0", "fontWeight": "600"}], "body-lg": ["16px", {"lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}], "display-lg": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "headline-sm": ["20px", {"lineHeight": "28px", "letterSpacing": "0", "fontWeight": "600"}], "title-sm": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "500"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.03em", "fontWeight": "600"}], "body-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "400"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}], "headline-lg-mobile": ["26px", {"lineHeight": "34px", "letterSpacing": "0", "fontWeight": "600"}], "title-md": ["16px", {"lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "600"}], "body-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "400"}], "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "0", "fontWeight": "600"}], "display-lg-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700"}] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;min-height:100vh;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="A modern, clean, friendly, geometric vector logo for 'ComParte'. It combines a map location pin with a heart and a fresh organic leaf curve in the shape of a welcoming shared plate. Flat style, fresh green #2E9E5B and warm orange #F58A3D accents.. Brand logo. - Primary color: #2e9e5b
+- Font: epilogue
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1V4eHJp_T83veFXgCj0VxmG9LTe0Oc0Ia2nRT8t17bjgh_ZDmgRGk-gkr4pnQWTF6M1Sv3m8nKiCTCnjw9V1VZEiOPfpwQGh8MVlm8_xXfY8qCWDCpiI0UnaSHCc0PQ-SpowwzJvKPbXSlGOp5evfwVG1MMD3emGi687iM252ZtxR4gnSeD5UMjggK9N1qa7fBOkYM8dGNhJrByyY8ygnaTb1X8nOPchagc-hgB989HDHY2DzihLHKs74_o"/><div class="flex flex-col min-w-0"><div class="flex items-center gap-space-xs"><span class="font-title-lg text-title-lg text-primary tracking-tight leading-none">ComParte</span><span class="hidden font-label-sm text-label-sm text-on-surface-variant">Inicio</span></div><button class="flex items-center gap-0.5 text-on-surface-variant hover:text-primary transition-colors text-left"><span class="material-symbols-outlined text-[16px] text-secondary leading-none">location_on</span><span class="font-label-md text-label-md truncate max-w-[130px]">Bogotá, Chapinero</span><span class="material-symbols-outlined text-[16px] leading-none">expand_more</span></button></div></div><div class="flex items-center gap-space-xs shrink-0"><button aria-label="Notificaciones" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:bg-surface-container active:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[24px]">notifications</span></button><button aria-label="Perfil de usuario" class="w-11 h-11 flex items-center justify-center rounded-full hover:opacity-90 transition-opacity"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1Uyr8j6SXAJAPvCqpUhYFz_HtDaVJSDsTV1JF2YoGDLZM2RaM1x66AllKmZft2ul8B7LkGnyAsw715bzGmm3FxOmlWbTOfvPz5atEahpOtByJcvwEPpcBrEpdyZofuCmCOttCKyZAWCJrDoiShDkrq-6TP_AcAWcpndCkP52fJkJ26mutyRBuu6J0pN0ciBasN0Fi6kFOm6Se2_UN6JXeHFi5v9dfckS-3q2d74ecWrHmwtulAP1SnjWfFi"/></button></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full relative select-none">
+<!-- Interactive Map Canvas Container -->
+<div class="relative w-full h-[640px] bg-surface-container overflow-hidden">
+<!-- Vector Map Render Layer (Chapinero / Teusaquillo Stylized Layout) -->
+<svg class="absolute inset-0 w-full h-full object-cover" preserveaspectratio="xMidYMid slice" viewbox="0 0 400 700" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<!-- Gradients for subtle depth -->
+<lineargradient id="parkGrad" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#82d99a" stop-opacity="0.32"></stop>
+<stop offset="100%" stop-color="#9df6b4" stop-opacity="0.18"></stop>
+</lineargradient>
+<lineargradient id="javerianaGrad" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" stop-color="#bdcabc" stop-opacity="0.35"></stop>
+<stop offset="100%" stop-color="#eae8e3" stop-opacity="0.45"></stop>
+</lineargradient>
+<radialgradient cx="50%" cy="50%" id="userPulse" r="50%">
+<stop offset="0%" stop-color="#026a37" stop-opacity="0.35"></stop>
+<stop offset="100%" stop-color="#026a37" stop-opacity="0"></stop>
+</radialgradient>
+</defs>
+<!-- Background city blocks -->
+<rect fill="#f5f3ee" height="700" width="400"></rect>
+<!-- Green Parks & Campus Outlines -->
+<!-- Parque de los Hippies (Cra 7 con Cl 60) -->
+<path d="M 195 245 L 260 230 L 275 285 L 210 300 Z" fill="url(#parkGrad)" rx="6"></path>
+<text fill="#005229" font-family="Inter" font-size="7" font-weight="600" opacity="0.8" x="220" y="270">Pque. Hippies</text>
+<!-- Campus Javeriana (Cra 7 con Cl 40-45) -->
+<path d="M 230 460 L 370 425 L 390 570 L 250 600 Z" fill="url(#javerianaGrad)" rx="10"></path>
+<text fill="#3e4a3f" font-family="Inter" font-size="8" font-weight="600" opacity="0.85" x="280" y="510">Univ. Javeriana</text>
+<!-- Parque Sucre / Chapinero Alto green pockets -->
+<circle cx="340" cy="190" fill="url(#parkGrad)" r="28"></circle>
+<path d="M 20 370 L 95 355 L 110 425 L 35 440 Z" fill="url(#parkGrad)" opacity="0.75"></path>
+<text fill="#005229" font-family="Inter" font-size="7" font-weight="500" opacity="0.7" x="40" y="400">Plaza Teusaquillo</text>
+<!-- Grid Street Network (Avenidas Principales) -->
+<!-- Carrera 7ma (Diagonal arterial) -->
+<line stroke="#ffffff" stroke-linecap="round" stroke-width="18" x1="260" x2="190" y1="0" y2="700"></line>
+<line stroke="#eae8e3" stroke-linecap="round" stroke-width="12" x1="260" x2="190" y1="0" y2="700"></line>
+<!-- Ciclorruta Carrera 7 -->
+<line opacity="0.8" stroke="#71dc92" stroke-dasharray="6,4" stroke-width="2.5" x1="256" x2="186" y1="0" y2="700"></line>
+<!-- Carrera 13 -->
+<line stroke="#ffffff" stroke-width="13" x1="165" x2="105" y1="0" y2="700"></line>
+<line stroke="#e4e2dd" stroke-width="9" x1="165" x2="105" y1="0" y2="700"></line>
+<!-- Carrera Caracas / Troncal TransMilenio -->
+<line stroke="#ffffff" stroke-width="14" x1="95" x2="40" y1="0" y2="700"></line>
+<line opacity="0.9" stroke="#ffdad6" stroke-width="7" x1="95" x2="40" y1="0" y2="700"></line>
+<!-- Carrera 9na -->
+<line stroke="#ffffff" stroke-width="10" x1="205" x2="148" y1="0" y2="700"></line>
+<line stroke="#eae8e3" stroke-width="6" x1="205" x2="148" y1="0" y2="700"></line>
+<!-- Calles Este-Oeste -->
+<!-- Calle 67 -->
+<line stroke="#ffffff" stroke-width="9" x1="0" x2="400" y1="120" y2="60"></line>
+<line stroke="#eae8e3" stroke-width="5" x1="0" x2="400" y1="120" y2="60"></line>
+<text fill="#6e7a6f" font-family="Inter" font-size="7" font-weight="500" transform="rotate(-9, 310, 80)" x="310" y="80">Cl. 67</text>
+<!-- Calle 63 (Eje gastronómico Chapinero) -->
+<line stroke="#ffffff" stroke-width="12" x1="0" x2="400" y1="195" y2="135"></line>
+<line stroke="#eae8e3" stroke-width="8" x1="0" x2="400" y1="195" y2="135"></line>
+<text fill="#3e4a3f" font-family="Inter" font-size="7.5" font-weight="600" transform="rotate(-9, 290, 152)" x="290" y="152">Cl. 63 (Calle Lourdes)</text>
+<!-- Calle 57 (Hacia Galerías) -->
+<line stroke="#ffffff" stroke-width="11" x1="0" x2="400" y1="285" y2="225"></line>
+<line stroke="#eae8e3" stroke-width="7" x1="0" x2="400" y1="285" y2="225"></line>
+<text fill="#6e7a6f" font-family="Inter" font-size="7.5" font-weight="500" transform="rotate(-9, 25, 280)" x="25" y="280">Cl. 57</text>
+<!-- Calle 53 (Arterial principal Teusaquillo - Javeriana) -->
+<line stroke="#ffffff" stroke-width="14" x1="0" x2="400" y1="365" y2="305"></line>
+<line stroke="#eae8e3" stroke-width="9" x1="0" x2="400" y1="365" y2="305"></line>
+<text fill="#3e4a3f" font-family="Inter" font-size="8" font-weight="600" transform="rotate(-9, 32, 358)" x="32" y="358">Calle 53</text>
+<!-- Calle 45 -->
+<line stroke="#ffffff" stroke-width="11" x1="0" x2="400" y1="465" y2="405"></line>
+<line stroke="#eae8e3" stroke-width="7" x1="0" x2="400" y1="465" y2="405"></line>
+<text fill="#6e7a6f" font-family="Inter" font-size="7.5" font-weight="500" transform="rotate(-9, 40, 458)" x="40" y="458">Cl. 45</text>
+<!-- Secundarias / Calles internas -->
+<path d="M 120 180 L 160 380 M 70 200 L 100 450 M 230 140 L 260 300" stroke="#f0eee9" stroke-linecap="round" stroke-width="4"></path>
+<!-- Label Cra 7ma -->
+<text fill="#005229" font-family="Inter" font-size="8.5" font-weight="700" transform="rotate(-84, 215, 650)" x="215" y="650">CARRERA 7MA</text>
+<!-- Radio de Cobertura Activo (Círculo de caminata 500m) -->
+<circle cx="168" cy="272" fill="#71dc92" fill-opacity="0.1" r="95" stroke="#006a36" stroke-dasharray="4,4" stroke-width="1.5"></circle>
+<!-- Marcador Usuario: Tú Estás Aquí (Calle 57 con Cra 9) -->
+<circle cx="168" cy="272" fill="url(#userPulse)" r="26"></circle>
+<circle cx="168" cy="272" fill="#006a36" r="9"></circle>
+<circle cx="168" cy="272" fill="#ffffff" r="4.5"></circle>
+<!-- Pulso user icon halo visual -->
+<text fill="#005229" font-family="Inter" font-size="8" font-weight="700" x="144" y="300">📍 Estás aquí</text>
+</svg>
+<!-- Floating UI Controls (Top Overlay) -->
+<div class="absolute top-3 inset-x-0 px-margin flex flex-col gap-space-sm z-30 pointer-events-auto">
+<!-- Top Row: View Selector Segmented Pill & Quick Filter Counter -->
+<div class="flex items-center justify-between">
+<!-- Floating Pill Toggle: Lista / Mapa -->
+<div class="inline-flex p-1 bg-surface-container-lowest/95 backdrop-blur-md rounded-full shadow-md">
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md hover:bg-surface-container transition-all" type="button">
+<span class="material-symbols-outlined text-[16px]">view_agenda</span>
+<span>Lista</span>
+</button>
+<button class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">map</span>
+<span>Mapa (14)</span>
+</button>
+</div>
+<!-- Radar Pulse Live Indicator -->
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-surface-container-lowest/95 backdrop-blur-md rounded-full shadow-md text-on-surface font-label-sm text-label-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+</span>
+<span class="font-semibold text-primary">En directo</span>
+</div>
+</div>
+<!-- Floating Search Bar -->
+<div class="flex items-center bg-surface-container-lowest/95 backdrop-blur-md rounded-full px-3.5 h-12 shadow-md gap-2.5">
+<span class="material-symbols-outlined text-primary text-[22px]">search</span>
+<input class="bg-transparent flex-1 font-body-md text-body-md text-on-surface focus:outline-none placeholder:text-outline" placeholder="¿Qué comida o barrio buscas?" type="text" value="Chapinero, Cl. 63 con Cra 7"/>
+<button aria-label="Limpiar o filtrar" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</button>
+<button class="w-8 h-8 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-sm" title="Mi ubicación">
+<span class="material-symbols-outlined text-[18px]">my_location</span>
+</button>
+</div>
+<!-- Horizontal Filter Chips Carousel -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 no-scrollbar -mx-margin px-margin">
+<!-- Active Chip -->
+<button class="shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm">
+<span class="material-symbols-outlined text-[16px]">check</span>
+<span>Todos (14)</span>
+</button>
+<!-- Chip Bakery -->
+<button class="shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest/95 backdrop-blur-md text-on-surface font-label-md text-label-md shadow-sm active:scale-95 transition-transform">
+<span>🥖</span>
+<span>Panadería (6)</span>
+</button>
+<!-- Chip Hot Meals -->
+<button class="shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest/95 backdrop-blur-md text-on-surface font-label-md text-label-md shadow-sm active:scale-95 transition-transform">
+<span>🍲</span>
+<span>Comida caliente (5)</span>
+</button>
+<!-- Chip Fresh Produce -->
+<button class="shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest/95 backdrop-blur-md text-on-surface font-label-md text-label-md shadow-sm active:scale-95 transition-transform">
+<span>🍎</span>
+<span>Frutas (3)</span>
+</button>
+<!-- Distance Chip -->
+<button class="shrink-0 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest/95 backdrop-blur-md text-on-surface-variant font-label-md text-label-md shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">near_me</span>
+<span>&lt; 1 km</span>
+</button>
+</div>
+</div>
+<!-- Map Floating Action Buttons (Right-side dock) -->
+<div class="absolute right-margin top-44 flex flex-col gap-2.5 z-20">
+<!-- Compass / North -->
+<button aria-label="Norte" class="w-10 h-10 rounded-full bg-surface-container-lowest/95 backdrop-blur-md text-on-surface flex items-center justify-center shadow-md active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[20px] text-secondary">explore</span>
+</button>
+<!-- Layer Filter / Coverage Radius -->
+<button aria-label="Radio de búsqueda" class="relative w-10 h-10 rounded-full bg-surface-container-lowest/95 backdrop-blur-md text-on-surface flex items-center justify-center shadow-md active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[20px] text-primary">radar</span>
+<span class="absolute -bottom-1 text-[9px] font-bold bg-secondary text-on-secondary px-1 rounded-full">500m</span>
+</button>
+<!-- Zoom In / Zoom Out Group -->
+<div class="flex flex-col rounded-full bg-surface-container-lowest/95 backdrop-blur-md shadow-md overflow-hidden">
+<button aria-label="Acercar" class="w-10 h-9 flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+<div class="w-full h-[1px] bg-surface-container-high"></div>
+<button aria-label="Alejar" class="w-10 h-9 flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+</div>
+<!-- Recenter GPS Button -->
+<button aria-label="Centrar en mi ubicación" class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[20px]">gps_fixed</span>
+</button>
+</div>
+<!-- PINES SOLIDARIOS INTERACTIVOS (HTML Overlay Pins with Absolute Coordinates) -->
+<!-- PIN 1: SELECCIONADO / ACTIVO - Panadería La Candelaria (Cl 64 #8-24) -->
+<div class="absolute left-[44%] top-[25%] -translate-x-1/2 -translate-y-full z-25 flex flex-col items-center cursor-pointer group animate-bounce" style="animation-duration: 2s; animation-iteration-count: infinite;">
+<!-- Speech bubble label -->
+<div class="flex items-center gap-1.5 px-3 py-1.5 bg-primary text-on-primary rounded-full shadow-lg whitespace-nowrap mb-1">
+<span class="text-[14px]">🥖</span>
+<span class="font-title-sm text-title-sm font-semibold">La Candelaria</span>
+<span class="px-1.5 py-0.5 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-bold">8 raciones</span>
+</div>
+<!-- Pin Glyph with brand styling -->
+<div class="relative flex items-center justify-center">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-xl shadow-primary/30 ring-4 ring-secondary-container">
+<span class="material-symbols-outlined text-[20px]">storefront</span>
+</div>
+<!-- Pointer arrow downward -->
+<div class="w-0 h-0 border-l-[6px] border-l-transparent border-r-[6px] border-r-transparent border-t-[8px] border-t-secondary-container absolute -bottom-2"></div>
+</div>
+<!-- Pulsing radar ground halo -->
+<div class="w-4 h-1.5 rounded-full bg-primary/40 blur-[1px] mt-1.5"></div>
+</div>
+<!-- PIN 2: Sabor Santafereño (Cra 7 con Cl 55 - 800m) -->
+<div class="absolute left-[62%] top-[40%] -translate-x-1/2 -translate-y-full z-15 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform">
+<div class="flex items-center gap-1 px-2.5 py-1 bg-surface-container-lowest/95 backdrop-blur-sm text-on-surface rounded-full shadow-md whitespace-nowrap mb-1">
+<span class="text-[12px]">🍲</span>
+<span class="font-label-md text-label-md font-semibold">Sabor Santafereño</span>
+<span class="text-tertiary font-bold text-label-sm">· 5 alms</span>
+</div>
+<div class="w-7 h-7 rounded-full bg-tertiary-container text-on-tertiary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[16px]">soup_kitchen</span>
+</div>
+<div class="w-2.5 h-1 rounded-full bg-on-surface/20 blur-[1px] mt-0.5"></div>
+</div>
+<!-- PIN 3: Frutería El Paraíso (Cl 60 con Cra 13) -->
+<div class="absolute left-[26%] top-[34%] -translate-x-1/2 -translate-y-full z-15 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform">
+<div class="flex items-center gap-1 px-2.5 py-1 bg-surface-container-lowest/95 backdrop-blur-sm text-on-surface rounded-full shadow-md whitespace-nowrap mb-1">
+<span class="text-[12px]">🍎</span>
+<span class="font-label-md text-label-md font-semibold">Frutería El Paraíso</span>
+<span class="text-secondary font-bold text-label-sm">· 4 packs</span>
+</div>
+<div class="w-7 h-7 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[16px]">nutrition</span>
+</div>
+<div class="w-2.5 h-1 rounded-full bg-on-surface/20 blur-[1px] mt-0.5"></div>
+</div>
+<!-- PIN 4: Café San Alberto (Javeriana / Cl 45) -->
+<div class="absolute left-[72%] top-[62%] -translate-x-1/2 -translate-y-full z-10 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform opacity-90">
+<div class="flex items-center gap-1 px-2 py-0.5 bg-surface-container-lowest/90 text-on-surface rounded-full shadow-sm whitespace-nowrap mb-0.5">
+<span class="text-[11px]">☕</span>
+<span class="font-label-sm text-label-sm font-medium">Café San Alberto (3)</span>
+</div>
+<div class="w-6 h-6 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[14px]">local_cafe</span>
+</div>
+</div>
+<!-- PIN 5: Piqueteadero Doña Luz (Calle 53 con Cra 16) -->
+<div class="absolute left-[18%] top-[52%] -translate-x-1/2 -translate-y-full z-10 flex flex-col items-center cursor-pointer hover:scale-105 transition-transform opacity-90">
+<div class="flex items-center gap-1 px-2 py-0.5 bg-surface-container-lowest/90 text-on-surface rounded-full shadow-sm whitespace-nowrap mb-0.5">
+<span class="text-[11px]">🥘</span>
+<span class="font-label-sm text-label-sm font-medium">Doña Luz (6)</span>
+</div>
+<div class="w-6 h-6 rounded-full bg-tertiary text-on-tertiary flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[14px]">dinner_dining</span>
+</div>
+</div>
+</div>
+<!-- MATERIAL 3 MODAL BOTTOM SHEET (Overlapping Map Bottom) -->
+<!-- Relative container placed securely in content flow without bleed-through -->
+<div class="-mt-14 z-30 w-full px-margin pb-6">
+<div class="w-full bg-surface-container-lowest rounded-[28px] shadow-2xl p-space-md flex flex-col gap-space-sm relative">
+<!-- Top Drag Handle (M3 Standard) -->
+<div class="w-full flex items-center justify-center pt-1 pb-2">
+<div class="w-10 h-1.5 rounded-full bg-outline-variant"></div>
+</div>
+<!-- Bottom Sheet Header: Urgency Badge & Category & Close -->
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-2 flex-wrap min-w-0">
+<!-- Category Chip -->
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span>🥖</span>
+<span class="font-semibold">Panadería artesanal</span>
+</span>
+<!-- Time Urgency Badge (Recoger antes de...) -->
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+<span>Recoge hoy hasta 8:30 PM (42m)</span>
+</span>
+</div>
+<!-- Dismiss / Minimize Button -->
+<button aria-label="Cerrar previsualización" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-surface-container transition-colors shrink-0">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Main Item Card Body (Split layout: Image + Details) -->
+<div class="flex gap-space-md items-start pt-1">
+<!-- Visual Food Image Placeholder (Detailed prompt for Colombian Bakery Surplus) -->
+<div class="relative shrink-0 w-24 h-24 rounded-2xl overflow-hidden bg-surface-container shadow-sm">
+<img class="w-full h-full object-cover" data-alt="A warm, appetizing wicker basket filled with fresh Colombian artisanal bread, golden pandebonos, mogollas campesinas, and flaky croissants inside a cozy Bogotá neighborhood bakery. Soft natural afternoon bakery lighting with warm ochre and fresh green tones, clean appetizing commercial food presentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuATJQnEODCbTUbCavNtfBRUHjgX-8BdmvmptpXv3nCz1a9JSdbpoBskHPtF_1xMHsgc0OTh7zXPp0CIaqr9s32TaoI7Mf00g9tO58MQn6NAxkamO1td0xXCFli3pznLnkDYM7LW3kIaWDcIuPWscaeCCEZNuuq_OfrgD5FiqdIMOPuZT0aGR2oqTgFk1f7am4OcMqKYBnp2cGdbRd7aN6vs8DJIhZm-IsmNntqYtMjmClNUPD0hq2QgoA"/>
+<div class="absolute bottom-1 left-1 px-1.5 py-0.5 rounded-md bg-inverse-surface/80 text-inverse-on-surface font-label-sm text-[10px] backdrop-blur-xs">
+            350 m
+          </div>
+</div>
+<!-- Food Information Hierarchy -->
+<div class="flex flex-col flex-1 min-w-0">
+<!-- Bakery Name and Rating -->
+<div class="flex items-center gap-1 text-on-surface-variant font-label-md text-label-md">
+<span class="font-semibold text-on-surface truncate">Panadería La Candelaria</span>
+<span class="material-symbols-outlined text-primary text-[15px]" title="Comercio Verificado">verified</span>
+<span class="flex items-center gap-0.5 text-secondary font-semibold ml-auto shrink-0">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span>4.9</span>
+<span class="text-outline text-label-sm font-normal">(84)</span>
+</span>
+</div>
+<!-- Listing Main Title -->
+<h2 class="font-title-lg text-title-lg text-on-surface font-semibold tracking-tight mt-0.5 line-clamp-1">
+            Bolsa sorpresa del día
+          </h2>
+<!-- Descriptive Subtitle -->
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mt-0.5 leading-relaxed">
+            Panes campesinos, mogollas de salvado y croissants del turno de la tarde. Frescos y listos para compartir.
+          </p>
+<!-- Dynamic Portion Counter Pill -->
+<div class="flex items-center gap-2 mt-2">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[13px]">inventory_2</span>
+<span>8 raciones disponibles</span>
+</span>
+<span class="font-label-sm text-label-sm text-outline">A pie 5 min</span>
+</div>
+</div>
+</div>
+<!-- Quick Context Micro-Grid (Address & Inclusivity) -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<div class="flex items-center gap-1.5 p-2 rounded-xl bg-surface-container-low text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-primary shrink-0">location_on</span>
+<span class="font-label-sm text-label-sm truncate">Cl. 64 #8-24, Chapinero</span>
+</div>
+<div class="flex items-center gap-1.5 p-2 rounded-xl bg-surface-container-low text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary shrink-0">volunteer_activism</span>
+<span class="font-label-sm text-label-sm truncate">Comedor o familias</span>
+</div>
+</div>
+<!-- Call to Action Buttons (Dual Ergonomic Action Targets) -->
+<div class="flex items-center gap-space-sm pt-2">
+<!-- Secondary Button: Route / How to get there -->
+<button class="min-h-[48px] px-4 rounded-full bg-surface-container-high text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-1.5 hover:bg-surface-container-highest active:scale-95 transition-all" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">directions_walk</span>
+<span>Ruta</span>
+</button>
+<!-- Primary Action Button: Warm Secondary Orange (Decisive Claim Flow) -->
+<button class="flex-1 min-h-[48px] px-5 rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 shadow-md hover:brightness-105 active:scale-98 transition-all" onclick="window.location.href='detalle.html'" type="button">
+<span class="material-symbols-outlined text-[20px]">shopping_basket</span>
+<span>Apartar gratis (1 porción)</span>
+</button>
+</div>
+</div>
+</div>
+</div></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)]" data-active-classes="[&amp;&gt;div.icon-pill]:bg-primary-container [&amp;&gt;div.icon-pill]:text-on-primary-container [&amp;&gt;span.nav-label]:font-semibold [&amp;&gt;span.nav-label]:text-primary"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 gap-1 text-on-surface-variant transition-all" data-path="inicio" href="feed.html"><div class="icon-pill flex items-center justify-center w-14 h-8 rounded-full transition-colors"><span class="material-symbols-outlined text-[22px]">volunteer_activism</span></div><span class="nav-label font-label-sm text-label-sm tracking-wide text-on-surface-variant">Inicio</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 gap-1 text-on-surface-variant transition-all" data-path="mapa" href="map.html"><div class="icon-pill flex items-center justify-center w-14 h-8 rounded-full transition-colors"><span class="material-symbols-outlined text-[22px]">map</span></div><span class="nav-label font-label-sm text-label-sm tracking-wide text-on-surface-variant">Mapa</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 gap-1 text-on-secondary transition-all" data-path="publicar" href="register.html"><div class="icon-pill flex items-center justify-center w-14 h-8 rounded-full bg-secondary-container text-on-secondary-container shadow-[0_4px_12px_rgba(245,138,61,0.35)] transition-transform active:scale-95"><span class="material-symbols-outlined text-[22px]">add_circle</span></div><span class="nav-label font-label-sm text-label-sm tracking-wide text-secondary font-semibold">Publicar</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 gap-1 text-on-surface-variant transition-all" data-path="reservas" href="detalle.html"><div class="icon-pill flex items-center justify-center w-14 h-8 rounded-full transition-colors"><span class="material-symbols-outlined text-[22px]">shopping_bag</span></div><span class="nav-label font-label-sm text-label-sm tracking-wide text-on-surface-variant">Reservas</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[48px] py-1 gap-1 text-on-surface-variant transition-all" data-path="perfil" href="code.html"><div class="icon-pill flex items-center justify-center w-14 h-8 rounded-full transition-colors"><span class="material-symbols-outlined text-[22px]">person</span></div><span class="nav-label font-label-sm text-label-sm tracking-wide text-on-surface-variant">Perfil</span></a></div></nav></body></html>
