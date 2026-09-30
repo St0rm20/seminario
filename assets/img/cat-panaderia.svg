@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Panadería">
+  <rect width="320" height="200" fill="#FBF9F4"/>
+  <circle cx="252" cy="44" r="58" fill="#2E9E5B" fill-opacity="0.10"/>
+  <circle cx="58" cy="168" r="46" fill="#F58A3D" fill-opacity="0.12"/>
+  <ellipse cx="160" cy="146" rx="104" ry="15" fill="#2E9E5B" fill-opacity="0.14"/>
+  <path d="M96 140c0-26 18-44 40-44s40 18 40 44z" fill="#D98B34"/>
+  <path d="M108 138c0-19 12-32 28-32s28 13 28 32z" fill="#F2A65A"/>
+  <path d="M186 140c0-16 11-27 25-27s25 11 25 27z" fill="#D98B34"/>
+  <path d="M60 140c0-20 14-34 30-34s30 14 30 34z" fill="#E59A4A"/>
+  <g stroke="#FBF9F4" stroke-width="4" stroke-linecap="round" opacity="0.85">
+    <path d="M120 122l14-14M142 126l14-16M206 122l12-11"/>
+  </g>
+  <rect x="112" y="152" width="96" height="10" rx="5" fill="#2E9E5B"/>
+  <path d="M104 162h112l-8 18H112z" fill="#2E9E5B"/>
+  <path d="M104 162h112l-3 7H107z" fill="#2E9E5B" fill-opacity="0.55"/>
+</svg>

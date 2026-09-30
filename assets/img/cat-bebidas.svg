@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Bebidas">
+  <rect width="320" height="200" fill="#FBF9F4"/>
+  <circle cx="270" cy="42" r="54" fill="#F58A3D" fill-opacity="0.12"/>
+  <circle cx="44" cy="166" r="46" fill="#2E9E5B" fill-opacity="0.10"/>
+  <ellipse cx="160" cy="166" rx="90" ry="11" fill="#2E9E5B" fill-opacity="0.14"/>
+  <path d="M118 66h84l-8 92a10 10 0 0 1-10 9h-48a10 10 0 0 1-10-9z" fill="#F7FBF8" stroke="#2E9E5B" stroke-width="5"/>
+  <path d="M122 96h76l-6 62a10 10 0 0 1-10 9h-44a10 10 0 0 1-10-9z" fill="#F2A65A"/>
+  <path d="M126 122h68l-4 36a10 10 0 0 1-10 9h-40a10 10 0 0 1-10-9z" fill="#E08B2C"/>
+  <rect x="114" y="58" width="92" height="12" rx="6" fill="#2E9E5B"/>
+  <path d="M186 20l14 38" fill="none" stroke="#2E9E5B" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="216" cy="112" r="9" fill="#2E9E5B" fill-opacity="0.5"/>
+  <path d="M78 92h30v58a15 15 0 0 1-30 0z" fill="#F7FBF8" stroke="#2E9E5B" stroke-width="5"/>
+  <path d="M78 116h30v34a15 15 0 0 1-30 0z" fill="#8ED9AC"/>
+  <rect x="74" y="84" width="38" height="10" rx="5" fill="#2E9E5B"/>
+  <path d="M212 96h32v54a16 16 0 0 1-32 0z" fill="#F7FBF8" stroke="#2E9E5B" stroke-width="5"/>
+  <path d="M212 120h32v30a16 16 0 0 1-32 0z" fill="#F2A65A"/>
+  <rect x="208" y="88" width="40" height="10" rx="5" fill="#2E9E5B"/>
+</svg>

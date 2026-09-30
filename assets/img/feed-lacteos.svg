@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Yogurt y queso de la finca">
+  <rect width="320" height="200" fill="#FBF9F4"/>
+  <circle cx="56" cy="42" r="52" fill="#2E9E5B" fill-opacity="0.10"/>
+  <circle cx="270" cy="162" r="52" fill="#F58A3D" fill-opacity="0.12"/>
+  <ellipse cx="160" cy="162" rx="100" ry="12" fill="#2E9E5B" fill-opacity="0.14"/>
+  <circle cx="96" cy="116" r="14" fill="#8ED9AC" fill-opacity="0.5"/>
+  <path d="M108 62h84l20 36v54a10 10 0 0 1-10 10H98a10 10 0 0 1-10-10V98z" fill="#F7FBF8" stroke="#2E9E5B" stroke-width="5"/>
+  <path d="M108 62h84l4 7h-92z" fill="#3E9B57"/>
+  <rect x="96" y="120" width="104" height="42" rx="6" fill="#B8E6C8" fill-opacity="0.7"/>
+  <circle cx="148" cy="140" r="16" fill="#3E9B57"/>
+  <path d="M140 140l5 6 11-13" fill="none" stroke="#F7FBF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M238 108h26l-7 66h-14z" fill="#F2A65A" stroke="#D98B34" stroke-width="4"/>
+  <circle cx="250" cy="124" r="7" fill="#FBF9F4"/>
+  <circle cx="246" cy="140" r="5" fill="#D98B34" fill-opacity="0.7"/>
+  <path d="M166 66c14 0 22 5 22 12h-22z" fill="#D98B34"/>
+</svg>

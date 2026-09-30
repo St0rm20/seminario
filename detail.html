@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="refresh" content="0; url=detalle.html" />
-		<title>ComParte</title>
-	</head>
-	<body>
-		<p><a href="detalle.html">Abrir detalle de la donación</a></p>
-	</body>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<meta content="mobile_tab" name="shell-type"/>
+<title>Redirigiendo… · ComParte</title>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="js/tailwind-config.js"></script>
+<script>
+(function() {
+  var url = new URL(window.location.href);
+  var id = url.searchParams.get('id') || url.hash.replace('#', '');
+  if (id) {
+    window.location.replace('detalle.html?id=' + encodeURIComponent(id));
+  } else {
+    window.location.replace('feed.html');
+  }
+})();
+</script>
+</head>
+<body class="bg-surface flex items-center justify-center min-h-screen text-on-surface font-body-md">
+<p class="px-margin text-center opacity-70">Redirigiendo a la publicación…</p>
+</body>
 </html>

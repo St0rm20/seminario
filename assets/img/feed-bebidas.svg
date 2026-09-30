@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Jugos de fruta de la plaza">
+  <rect width="320" height="200" fill="#FBF9F4"/>
+  <circle cx="58" cy="40" r="52" fill="#F58A3D" fill-opacity="0.13"/>
+  <circle cx="266" cy="166" r="50" fill="#2E9E5B" fill-opacity="0.10"/>
+  <ellipse cx="160" cy="166" rx="96" ry="11" fill="#2E9E5B" fill-opacity="0.14"/>
+  <path d="M104 78h72l-10 80a8 8 0 0 1-8 7h-36a8 8 0 0 1-8-7z" fill="#F7FBF8" stroke="#2E9E5B" stroke-width="5"/>
+  <path d="M110 128h60l-6 30a8 8 0 0 1-8 7h-32a8 8 0 0 1-8-7z" fill="#F2A65A"/>
+  <path d="M116 156h48l-3 14h-42z" fill="#E08B2C"/>
+  <path d="M150 44l16 34" fill="none" stroke="#2E9E5B" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="180" cy="112" r="8" fill="#2E9E5B" fill-opacity="0.5"/>
+  <rect x="196" y="78" width="34" height="8" rx="4" fill="#2E9E5B"/>
+  <path d="M204 88h18v60a9 9 0 0 1-18 0z" fill="#D98B34" stroke="#A96A2B" stroke-width="4"/>
+  <circle cx="213" cy="104" r="5" fill="#FBF9F4"/>
+  <rect x="68" y="80" width="26" height="7" rx="3.5" fill="#2E9E5B" fill-opacity="0.7"/>
+  <path d="M74 90h14v54a7 7 0 0 1-14 0z" fill="#8ED9AC" stroke="#2E9E5B" stroke-width="4"/>
+  <circle cx="134" cy="116" r="10" fill="#E0503A" fill-opacity="0.8"/>
+</svg>

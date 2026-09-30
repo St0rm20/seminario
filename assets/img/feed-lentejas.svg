@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-label="Lentejas">
+  <rect width="320" height="200" fill="#FBF9F4"/>
+  <circle cx="58" cy="42" r="50" fill="#F58A3D" fill-opacity="0.12"/>
+  <circle cx="268" cy="164" r="52" fill="#2E9E5B" fill-opacity="0.10"/>
+  <ellipse cx="160" cy="164" rx="98" ry="12" fill="#2E9E5B" fill-opacity="0.14"/>
+  <ellipse cx="160" cy="150" rx="86" ry="34" fill="#F7F0E2"/>
+  <path d="M160 116a34 34 0 1 0 0 0z" fill="none" stroke="#E5D9C2" stroke-width="3"/>
+  <ellipse cx="160" cy="150" rx="62" ry="20" fill="#D98B34"/>
+  <ellipse cx="160" cy="146" rx="56" ry="16" fill="#E9A23B"/>
+  <circle cx="146" cy="144" r="4" fill="#A96A2B"/>
+  <circle cx="160" cy="140" r="4" fill="#A96A2B"/>
+  <circle cx="174" cy="144" r="4" fill="#A96A2B"/>
+  <circle cx="153" cy="152" r="3.5" fill="#A96A2B"/>
+  <circle cx="167" cy="152" r="3.5" fill="#A96A2B"/>
+  <circle cx="158" cy="120" r="3" fill="#E9A23B"/>
+  <path d="M178 136c6-4 8-10 6-13-6 1-9 6-9 11z" fill="#2E9E5B"/>
+  <path d="M160 118c0-6 10-6 10-16-9-2-16 6-16 12z" fill="#3E9B57"/>
+  <path d="M196 150c14 2 18 10 18 18-12 4-22-4-20-14z" fill="#F58A3D"/>
+  <rect x="110" y="172" width="20" height="9" rx="4.5" fill="#F7F0E2"/>
+  <rect x="190" y="172" width="20" height="9" rx="4.5" fill="#F7F0E2"/>
+</svg>

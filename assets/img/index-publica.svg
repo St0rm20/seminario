@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Publicando un excedente">
+  <rect width="160" height="160" fill="#FBF9F4"/>
+  <circle cx="80" cy="80" r="76" fill="#2E9E5B" fill-opacity="0.10"/>
+  <path d="M40 118h80l-6 22H46z" fill="#2E9E5B" fill-opacity="0.22"/>
+  <rect x="52" y="66" width="56" height="48" rx="7" fill="#D98B34"/>
+  <path d="M52 66h56v12H52z" fill="#E9A23B"/>
+  <path d="M70 66l7-16h18l7 16z" fill="#2E9E5B"/>
+  <rect x="66" y="84" width="28" height="20" rx="4" fill="#FBF9F4" fill-opacity="0.92"/>
+  <path d="M72 92h16M72 98h11" stroke="#2E9E5B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M112 44a16 16 0 0 1 16 16v22a6 6 0 0 1-6 6h-20a6 6 0 0 1-6-6V60a16 16 0 0 1 16-16z" fill="#FBF9F4" stroke="#2E9E5B" stroke-width="4"/>
+  <path d="M105 66h30v14h-30z" fill="#2E9E5B" fill-opacity="0.25"/>
+  <path d="M126 46l10-8" stroke="#2E9E5B" stroke-width="4" stroke-linecap="round"/>
+</svg>

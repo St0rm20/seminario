@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Buscando comida cerca">
+  <rect width="160" height="160" fill="#FBF9F4"/>
+  <circle cx="80" cy="80" r="76" fill="#F58A3D" fill-opacity="0.12"/>
+  <circle cx="88" cy="72" r="34" fill="#F58A3D" fill-opacity="0.30"/>
+  <circle cx="88" cy="72" r="24" fill="#FBF9F4"/>
+  <circle cx="88" cy="72" r="17" fill="#F58A3D" fill-opacity="0.10"/>
+  <circle cx="88" cy="72" r="10" fill="#F58A3D"/>
+  <path d="M92 112l36 8-4 12-34-8z" fill="#D98B34"/>
+  <path d="M128 120l14 14-8 8-14-14z" fill="#F58A3D"/>
+  <circle cx="92" cy="112" r="6" fill="#2E9E5B"/>
+  <path d="M52 140c8-6 16-8 26-8v14c-9 0-17-2-26-6z" fill="#2E9E5B" fill-opacity="0.22"/>
+</svg>

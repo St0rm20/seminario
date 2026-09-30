@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Recogiendo el pedido">
+  <rect width="160" height="160" fill="#FBF9F4"/>
+  <circle cx="80" cy="80" r="76" fill="#2E9E5B" fill-opacity="0.10"/>
+  <circle cx="62" cy="96" r="20" fill="#2E9E5B" fill-opacity="0.20"/>
+  <path d="M52 92h128" stroke="none"/>
+  <g stroke="#9FB3A6" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M38 128a52 52 0 0 1 84 0"/>
+  </g>
+  <circle cx="62" cy="76" r="11" fill="#2E9E5B"/>
+  <path d="M50 112h24v18a12 12 0 0 1-24 0z" fill="#D98B34"/>
+  <path d="M50 112h24v8H50z" fill="#E9A23B"/>
+  <rect x="48" y="74" width="28" height="38" rx="5" fill="#F58A3D"/>
+  <path d="M48 74h28v14H48z" fill="#F2A65A"/>
+  <path d="M100 66l34 8-5 16-34-8z" fill="#2E9E5B"/>
+  <circle cx="104" cy="76" r="4" fill="#FBF9F4"/>
+  <path d="M118 44c4-8 14-9 18-5-2 7-9 12-18 12z" fill="#2E9E5B" fill-opacity="0.5"/>
+  <path d="M132 124l16-10 6 9-16 11z" fill="#F58A3D"/>
+</svg>
