@@ -165,8 +165,7 @@ reservado, y las raciones reservadas se descuentan del total al recalcular stock
 - `migrate()` repara registros manipulados a mano: coerciona tipos, descarta
   estados inválidos y rellena campos faltantes.
 - JSON corrupto ⇒ re-siembra automática con los datos demo.
-- Cuota excedida ⇒ se captura y se ofrece restablecer la sesión con un toast.
-- Modo privado estricto ⇒ respaldo en memoria, con aviso visible.
+- Almacenamiento bloqueado o cuota excedida ⇒ la app continúa con un respaldo en memoria y muestra un aviso; los cambios duran mientras la página siga abierta.
 - Todas las fechas del seed son **relativas al momento de abrir** la app, así que
   siempre hay publicaciones vigentes sin importar cuándo se abra.
 - Las imágenes se redimensionan a 800 px y se comprimen en el navegador antes de

@@ -233,7 +233,7 @@
     var error = h('p', { class: 'font-body-sm text-body-sm text-error min-h-[16px]', text: ' ' });
     var zoneSelect = h('select', {
       class: 'w-full h-[52px] px-3 bg-surface-container-high rounded-lg font-body-md text-body-md text-on-surface focus:outline-none'
-    }, CP.Seed.ZONAS.map(function (z) { return h('option', { value: z.id, text: z.label }); }));
+    }, CP.Seed.ZONAS.map(function (z) { return h('option', { value: z.id, text: CP.Zones.label(z) }); }));
     zoneSelect.value = user.zoneId || UI.currentZone().id;
 
     var panel = h('div', { class: 'w-full max-w-md bg-surface rounded-t-3xl p-5 shadow-2xl flex flex-col gap-3 max-h-[88vh] overflow-y-auto no-scrollbar' }, [

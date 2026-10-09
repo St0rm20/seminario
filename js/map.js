@@ -57,7 +57,7 @@
           type: 'button',
           class: 'font-label-md text-label-md flex items-center gap-1',
           onclick: UI.openZonePicker
-        }, [h('span', { id: 'cp-zone-label', text: UI.currentZone().label })]),
+        }, [h('span', { id: 'cp-zone-label', text: CP.Zones.label(UI.currentZone()) })]),
         h('span', { class: 'text-outline', text: '·' }),
         h('span', { class: 'font-label-md text-label-md text-primary font-semibold', text: total + (total === 1 ? ' cerca' : ' cerca') })
       ]),

@@ -33,15 +33,15 @@
   }
   StoreError.prototype = Object.create(Error.prototype);
 
-  var memoryFallback = null; // usado solo si sessionStorage no existe (modo privado severo)
+  var memoryFallback = null; // cache en memoria para continuar si el almacenamiento falla
   var degraded = false;
 
   function backend() {
+    if (degraded) return null;
     try {
       var probe = '__cp_probe__';
       window.sessionStorage.setItem(probe, '1');
       window.sessionStorage.removeItem(probe);
-      if (memoryFallback === null) { memoryFallback = null; }
       return window.sessionStorage;
     } catch (err) {
       degraded = true;
@@ -52,7 +52,14 @@
   function rawGet() {
     var s = backend();
     if (!s) return memoryFallback;
-    try { return s.getItem(KEY); } catch (err) { return null; }
+    try {
+      var value = s.getItem(KEY);
+      if (value !== null) memoryFallback = value;
+      return value;
+    } catch (err) {
+      degraded = true;
+      return memoryFallback;
+    }
   }
 
   function rawSet(value) {
@@ -60,19 +67,16 @@
     if (!s) { memoryFallback = value; return; }
     try {
       s.setItem(KEY, value);
+      memoryFallback = value;
     } catch (err) {
-      var quota = err && (err.name === 'QuotaExceededError' || err.name === 'NS_ERROR_DOM_QUOTA_REACHED' || err.code === 22 || err.code === 1014);
-      throw new StoreError(quota ? 'quota' : 'unavailable', quota
-        ? 'No hay espacio suficiente en este navegador para guardar tus datos de esta sesión.'
-        : 'No pudimos guardar tus cambios en este navegador.');
+      degraded = true;
+      memoryFallback = value;
     }
   }
 
   function rawRemove() {
-    var s = backend();
     memoryFallback = null;
-    if (!s) return;
-    try { s.removeItem(KEY); } catch (err) { /* nada que hacer */ }
+    try { window.sessionStorage.removeItem(KEY); } catch (err) { degraded = true; }
   }
 
   function emptyData() {
@@ -762,7 +766,7 @@
           id: uid('ntf'), userId: listing.ownerId, type: 'reservation_cancelled',
           title: 'Liberaron raciones en ' + listing.title,
           body: reservation.quantity + ' racion(es) volvieron al stock. Ya quedan ' + listing.portionsLeft + ' disponibles.',
-          listingId: listing.id, reservationId: reservation.id, read: false, createdAt: reservation.updatedAt
+          listingId: listing.id, reservationId: reservation.id, read: false, createdAt: new Date().toISOString()
         });
       }
       return { reservation: reservation, listing: listing };

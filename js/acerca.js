@@ -80,7 +80,7 @@
         h('a', { href: 'register.html', class: 'w-full h-12 rounded-full bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center shadow-md active:scale-[0.98] transition-transform', text: 'Crear mi cuenta' }),
         h('a', { href: 'login.html', class: 'w-full h-12 rounded-full bg-surface-container text-on-surface font-label-lg text-label-lg flex items-center justify-center active:scale-[0.98] transition-transform', text: 'Ya tengo cuenta' })
       ]),
-      h('img', { class: 'w-full rounded-xl object-cover mt-1 opacity-80', alt: 'Comunidad ComParte', src: ASSETS.onboardingCerca })
+      h('img', { class: 'w-full rounded-xl object-cover mt-1 opacity-80', alt: 'Comunidad ComParte', src: ASSETS.registerComunidad })
     ]));
   }
 

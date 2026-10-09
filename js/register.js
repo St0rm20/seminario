@@ -64,7 +64,7 @@
       id: 'reg-zone', name: 'zoneId',
       class: 'w-full h-[52px] px-3 bg-surface-container-high rounded-lg font-body-md text-body-md text-on-surface focus:outline-none'
     }, CP.Seed.ZONAS.map(function (z) {
-      return h('option', { value: z.id, text: z.label + ' · Bogotá D.C.' });
+      return h('option', { value: z.id, text: CP.Zones.label(z) });
     }));
     zoneSelect.value = UI.currentZone().id;
     refs.zoneId = { input: zoneSelect, error: h('p', { class: 'font-body-sm text-body-sm text-error min-h-[16px]', text: ' ' }) };

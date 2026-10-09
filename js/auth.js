@@ -112,6 +112,7 @@
     login: login,
     logout: logout,
     register: register,
+    roleLabel: roleLabel,
     requireAuth: requireAuth,
     redirectIfAuthenticated: redirectIfAuthenticated,
     nextParam: nextParam,

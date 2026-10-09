@@ -116,7 +116,7 @@
   function fmtKg(n) { return fmtNumber(n) + ' kg'; }
 
   function currentZone() {
-    var z = CP.Seed.zoneById(STORE.selectedZone() || 'chapinero');
+    var z = CP.Zones.byId(STORE.selectedZone()) || CP.Zones.byId(CP.Zones.DEFAULT_ZONE_ID);
     return z;
   }
 
@@ -284,7 +284,7 @@
     var user = CP.auth.currentUser();
     clear(container);
 
-    var zoneLabel = h('span', { id: 'cp-zone-label', class: 'font-label-md text-label-md truncate max-w-[130px]', text: currentZone().label });
+    var zoneLabel = h('span', { id: 'cp-zone-label', class: 'font-label-md text-label-md truncate max-w-[130px]', text: CP.Zones.label(currentZone()) });
     var zoneBtn = h('button', {
       type: 'button',
       class: 'flex items-center gap-0.5 text-on-surface-variant hover:text-primary transition-colors text-left min-h-[28px]',
@@ -358,13 +358,13 @@
         onclick: function () {
           STORE.setSelectedZone(z.id);
           if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
-          $$('#cp-zone-label').forEach(function (n) { n.textContent = z.label; });
+          $$('#cp-zone-label').forEach(function (n) { n.textContent = CP.Zones.label(z); });
           document.dispatchEvent(new CustomEvent('comparte:zonechange', { detail: { zone: z } }));
         }
       }, [
         h('span', { class: 'flex flex-col' }, [
-          h('span', { class: 'font-title-sm text-title-sm', text: z.label }),
-          h('span', { class: 'font-label-sm text-label-sm text-on-surface-variant', text: 'Bogotá D.C.' })
+          h('span', { class: 'font-title-sm text-title-sm', text: z.name }),
+          h('span', { class: 'font-label-sm text-label-sm text-on-surface-variant', text: z.municipality })
         ]),
         active ? icon('check_circle', 20, 'text-primary') : null
       ]));
@@ -631,7 +631,7 @@
 
   function storageGuard() {
     if (STORE.isDegraded()) {
-      toast('Tu navegador bloqueó el almacenamiento de sesión. Los datos de esta demo vivirán solo en memoria.', 'info', null, null);
+      toast('El almacenamiento del navegador no está disponible. Los cambios de esta demo vivirán solo mientras esta página siga abierta.', 'info', null, null);
     }
   }
 

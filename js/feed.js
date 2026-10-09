@@ -288,7 +288,7 @@
       h('p', {
         class: 'font-body-md text-body-md text-on-surface-variant mt-1 max-w-[280px]',
         text: 'Son ' + portions + ' raciones de ' + neighbors + (neighbors === 1 ? ' vecino' : ' vecinos') + ' en ' +
-          UI.currentZone().label + '. Cada kilogramo equivale a unos ' + UI.fmtNumber(STORE.CO2_PER_KG) + ' kg de CO₂e evitados.'
+          CP.Zones.label(UI.currentZone()) + '. Cada kilogramo equivale a unos ' + UI.fmtNumber(STORE.CO2_PER_KG) + ' kg de CO₂e evitados.'
       }),
       h('div', { class: 'mt-3 flex items-center gap-1 text-on-surface-variant font-label-sm text-label-sm opacity-80' }, [
         h('span', { text: 'ComParte · Datos de esta sesión, no acumulados reales' })
