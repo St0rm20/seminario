@@ -81,16 +81,6 @@
 
       var mail = email.input.value.trim();
       var pass = password.input.value;
-      var bad = false;
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) {
-        email.error.textContent = 'Escribe un correo válido.';
-        bad = true;
-      }
-      if (!pass) {
-        password.error.textContent = 'Escribe tu contraseña.';
-        bad = true;
-      }
-      if (bad) return;
 
       submit.disabled = true;
       submit.textContent = 'Entrando…';
@@ -129,7 +119,7 @@
         ]),
         h('span', { class: 'px-space-sm py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm', text: '1 toque' })
       ]),
-      h('p', { class: 'font-body-sm text-body-sm text-on-surface-variant', text: 'Los datos viven solo en esta sesión del navegador. Contraseña de las tres cuentas demo: 1234' }),
+      h('p', { class: 'font-body-sm text-body-sm text-on-surface-variant', text: 'Acceso de demostración: cualquier correo y contraseña funcionan. Si no existe la cuenta, se crea en este navegador.' }),
       h('div', { class: 'flex flex-col gap-space-xs mt-space-xs' }, CP.Seed.users().map(function (u) {
         return h('button', {
           type: 'button',
@@ -177,7 +167,7 @@
         h('span', { class: 'w-2 h-2 rounded-full bg-primary animate-pulse' }),
         'Comunidad solidaria de Colombia'
       ]),
-      h('h1', { class: 'font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight', text: '¡Hola de nuevo!' }),
+      h('h1', { class: 'font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight', text: '¡Hola de nuevo! :D' }),
       h('p', { class: 'font-body-md text-body-md text-on-surface-variant max-w-[280px] mt-1', text: 'Ingresa para compartir o rescatar alimentos hoy en tu barrio.' })
     ]);
   }

@@ -28,7 +28,7 @@ aviso y ofrece volver al listado; el resto de la app sigue operativa.
 
 ### Cuentas de prueba
 
-Contraseña para las tres: `1234`. También hay botones de acceso de 1 toque en `login.html`.
+El acceso demo acepta cualquier correo y contraseña; si el correo no existe, crea una cuenta local. También hay botones de acceso de 1 toque en `login.html`.
 
 | Correo | Perfil | Publicaciones |
 | --- | --- | --- |
@@ -175,6 +175,7 @@ reservado, y las raciones reservadas se descuentan del total al recalcular stock
 
 ## Seguridad y sanitización
 
+- La autenticación es solo de demostración: no verifica contraseñas ni protege datos y no debe usarse en producción.
 - Todo el contenido dinámico se inserta con `textContent` mediante el constructor
   `h()` de `ui.js`. **No hay `innerHTML` con datos de usuario.**
 - `next=` en el login solo acepta rutas internas: se rechazan URLs absolutas y
